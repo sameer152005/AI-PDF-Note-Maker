@@ -9,6 +9,9 @@ const outfit = Outfit({ subsets: ["latin"] });
 export const metadata = {
   title: "AI-PDF-Note-Maker",
   description: "Used to Generate Notes from AI and PDF ",
+  icons: {
+    icon: "/logo.png",
+  }
 };
 
 export default function RootLayout({ children }) {
