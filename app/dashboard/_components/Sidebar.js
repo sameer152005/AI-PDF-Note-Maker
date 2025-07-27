@@ -18,7 +18,6 @@ function Sidebar() {
     userEmail:user?.primaryEmailAddress?.emailAddress
   })
 
-  console.log(GetUserInfo)
 
     const fileList = useQuery(api.fileStorage.GetUserFiles, {
       userEmail: user?.primaryEmailAddress?.emailAddress,
