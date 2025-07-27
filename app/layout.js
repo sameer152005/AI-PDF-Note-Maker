@@ -10,7 +10,7 @@ export const metadata = {
   title: "AI-PDF-Note-Maker",
   description: "Used to Generate Notes from AI and PDF ",
   icons: {
-    icon: "/logo.png",
+    icon: "/logo.svg",
   }
 };
 
