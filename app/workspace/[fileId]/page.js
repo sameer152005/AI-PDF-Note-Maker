@@ -18,7 +18,6 @@ function Workspace() {
   const editorRef = useRef();
 
   useEffect(() => {
-    console.log(fileInfo);
   }, [fileInfo]);
 
   const handleSave = () => {
